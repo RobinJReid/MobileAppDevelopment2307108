@@ -261,7 +261,7 @@ function EventViewData(type){
         //checks if item should be added then adds
         if (item) {
             const obj = item.value;
-            if (obj.type.trim()==="Group") {
+            if (obj.type.trim()==="Event") {
 
                 if(obj.typeDetail.trim()=== type.value || type.value === "All"){
                     console.log("would be added" + type + obj.typeDetail)
