@@ -82,7 +82,8 @@ class NavHome extends HTMLElement {
         `;
     }
 }
-
+// group = https://pixabay.com/photos/enactment-theatre-emotion-drugs-258631/
+// tickets = https://pixabay.com/photos/ticket-coupon-admission-carnival-2974645/
 
 
 customElements.define('group-nav-home', NavHome);
