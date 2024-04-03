@@ -82,8 +82,7 @@ class NavHome extends HTMLElement {
         `;
     }
 }
-// group = https://pixabay.com/photos/enactment-theatre-emotion-drugs-258631/
-// tickets = https://pixabay.com/photos/ticket-coupon-admission-carnival-2974645/
+
 
 
 customElements.define('group-nav-home', NavHome);
@@ -267,7 +266,7 @@ function EventViewData(type){
                 if(obj.typeDetail.trim()=== type.value || type.value === "All"){
                     console.log("would be added" + type + obj.typeDetail)
 
-                    //calls function to add accordion item
+                    //calls# function to add accordion item
                     const newItem = groupCreateAccordionItem(obj);
                     objectList.appendChild(newItem);
                 }else{

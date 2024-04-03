@@ -20,7 +20,6 @@ class NavEvent extends HTMLElement{
                     </ion-item>
                     <ion-item>
                     <ion-select id="Event-type-input" label="Select Event Type" >
-                        <ion-select-option value="All">All</ion-select-option>
                         <ion-select-option value="Sports">Sports</ion-select-option>
                         <ion-select-option value="Arts & Theatre">Arts & Theatre</ion-select-option>
                         <ion-select-option value="Music">Music</ion-select-option>
